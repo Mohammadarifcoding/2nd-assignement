@@ -5,73 +5,68 @@
   font-family: "Work Sans", sans-serif;
 }
 
-:root{
-    --font-size:16px
+:root {
+  --font-size: 16px;
 }
 
 /* header design */
-.nav{
-  background-color:#fff;
+.nav {
+  background-color: #fff;
 }
-nav{
+nav {
   height: 120px;
   display: flex;
   justify-content: space-between;
   width: 80vw;
   margin: 0 auto;
   align-items: center;
-
 }
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 15px;
-
 }
-.logo img{
+.logo img {
   width: calc(var(--font-size) * 5.37);
-height:  calc(var(--font-size) * 2.5);
-
+  height: calc(var(--font-size) * 2.5);
 }
-.logo h2{
+.logo h2 {
   text-align: center;
-font-size: calc(var(--font-size) * 2.8);
-font-weight: 700;
+  font-size: calc(var(--font-size) * 2.8);
+  font-weight: 700;
 }
-.nav-ul{
+.nav-ul {
   display: flex;
   gap: 35px;
   list-style: none;
   align-items: center;
 }
-.nav-ul li{
-  color: #3C354F;
-font-size: calc(var(--font-size) * 1.2);
-font-weight: 500;
-
+.nav-ul li {
+  color: #3c354f;
+  font-size: calc(var(--font-size) * 1.2);
+  font-weight: 500;
 }
-.nav-ul li:hover{
-   cursor: pointer;
-
+.nav-ul li:hover {
+  cursor: pointer;
 }
-.nav-ul li button{
+.nav-ul li button {
   padding: calc(var(--font-size) * 1.06) calc(var(--font-size) * 1.5);
   align-items: center;
   display: flex;
   gap: 15px;
-  color: #3C354F;
-text-align: center;
-font-size: calc(var(--font-size) * 1.12);
-font-weight: 500;
+  color: #3c354f;
+  text-align: center;
+  font-size: calc(var(--font-size) * 1.12);
+  font-weight: 500;
 }
 /* nav finished */
 
 /* banner-started */
 
-.banner{
-  background-color: rgb(252,251,254);
+.banner {
+  background-color: rgb(252, 251, 254);
 }
-.banner-content{
+.banner-content {
   width: 80vw;
   margin: 0 auto;
   display: flex;
@@ -79,74 +74,77 @@ font-weight: 500;
   align-items: center;
   justify-content: space-between;
 }
-.banner-1st-title{
-  color: #0B0223;
-font-size:calc(var(--font-size) * 3 );
-font-weight: 600;
-text-transform: uppercase;
+.banner-1st-title {
+  color: #0b0223;
+  font-size: calc(var(--font-size) * 3);
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.banner-2nd-title{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size:calc(var(--font-size) * 5.93);
-font-weight: 800;
-text-transform: uppercase;
-margin-bottom: 20px;
+.banner-2nd-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: calc(var(--font-size) * 5.93);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-.banner-ul{
+.banner-ul {
   list-style: none;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   gap: 12px;
   margin-bottom: 20px;
 }
-.banner-ul li{
+.banner-ul li {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.banner-btn{
+.banner-btn {
   display: flex;
   gap: 10px;
 }
-.banner-btn-1,.are-gamer-btn{
-  color: #FFF;
-font-size: calc(var(--font-size) * 1.125);
-font-weight: 600;
-text-transform: uppercase;
-padding: calc(var(--font-size) * 1.31) calc(var(--font-size) * 2.5);
-border-radius: 48px;
-background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+.banner-btn-1,
+.are-gamer-btn {
+  color: #fff;
+  font-size: calc(var(--font-size) * 1.125);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: calc(var(--font-size) * 1.31) calc(var(--font-size) * 2.5);
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
-.banner-btn-2{
-  color: #FFF;
-font-size: calc(var(--font-size) * 1.125);
-font-weight: 600;
-text-transform: uppercase;
-padding: calc(var(--font-size) * 1.31) calc(var(--font-size) * 2.5);
-border-radius: 48px;
-background: #4EC5F7;
+.banner-btn-2 {
+  color: #fff;
+  font-size: calc(var(--font-size) * 1.125);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: calc(var(--font-size) * 1.31) calc(var(--font-size) * 2.5);
+  border-radius: 48px;
+  background: #4ec5f7;
 }
-.banner-btn > button:hover{
+.banner-btn > button:hover {
   opacity: 0.9;
 }
-.banner-img{
+.banner-img {
   width: 450px;
 }
-.banner-img img{
+.banner-img img {
   width: 100%;
 }
 /* banner-finished */
 
 /* we are gamer started */
-.we-are-gamer{
- 
-  background-color: rgb(252,251,254);
-  
+.we-are-gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
-.are-gamer-content{
+.are-gamer-content {
   width: 80vw;
   margin: 0 auto;
   display: flex;
@@ -154,58 +152,136 @@ background: #4EC5F7;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-
 }
-.are-gamer-title{
+.are-gamer-title {
   text-align: right;
-font-size:calc(var(--font-size) * 3);
-font-weight: 700;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-size: calc(var(--font-size) * 3);
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.are-gamer-description{
-  color: #534C64;
-text-align: right;
-font-size: calc(var(--font-size) * 1.125);
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 20px;
+.are-gamer-description {
+  color: #534c64;
+  text-align: right;
+  font-size: calc(var(--font-size) * 1.125);
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
-.are-gamer-btn{
-  color: #FFF;
-font-size: calc(var(--font-size) * 1.125);
-font-weight: 600;
-text-transform: uppercase;
-padding: calc(var(--font-size) * 1.31) calc(var(--font-size) * 2.5);
-border-radius: 48px;
-background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-margin-bottom: 20px;
+.are-gamer-btn {
+  color: #fff;
+  font-size: calc(var(--font-size) * 1.125);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: calc(var(--font-size) * 1.31) calc(var(--font-size) * 2.5);
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  margin-bottom: 20px;
 }
-.are-gamer-btn-container{
+.are-gamer-btn-container {
   text-align: right;
 }
-.are-gamer-qoutename{
-  color: #534C64;
-text-align: right;
-font-size:calc(var(--font-size) * 1.5);
-font-weight: 500;
-line-height: 35px; /* 187.5% */
+.are-gamer-qoutename {
+  color: #534c64;
+  text-align: right;
+  font-size: calc(var(--font-size) * 1.5);
+  font-weight: 500;
+  line-height: 35px; /* 187.5% */
 }
-.are-gamer-qoute{
-  color: #534C64;
-text-align: right;
-font-size:calc(var(--font-size) * 2);
-font-weight: 700;
-line-height: 45px;
+.are-gamer-qoute {
+  color: #534c64;
+  text-align: right;
+  font-size: calc(var(--font-size) * 2);
+  font-weight: 700;
+  line-height: 45px;
 }
-.are-gamer-img{
+.are-gamer-img {
   width: 570px;
 }
-.are-gamer-img img{
+.are-gamer-img img {
   width: 100%;
 }
-.are-gamer-text{
+.are-gamer-text {
   width: 520px;
 }
+/* are gamer finished */
+/* online game started */
+.online-game-content{
+  width:80vw;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+}
+.online-game-title{
+   text-align: center;
+   padding-top: 70px;
+   padding-bottom: 20px;
+   color: #0B0223;
+font-size:calc(var(--font-size) * 3);
+font-weight: 700;
+}
+.online-game-description{
+  text-align: center;
+  color: #534C64;
+text-align: center;
+font-size:calc(var(--font-size) * 1.12);
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-bottom: 30px;
+}
+.game-container{
+  display:grid;
+  grid-template-columns: repeat(4,250px);
+  justify-content: center;
+  gap: 25px;
+}
+.game-card{
+  width: 250px;
+  position: relative;
+}
+
+.game-card > img{
+  width: 100%;
+  position: relative;
+
+}
+.game-card > img:hover{
+  border: 5px solid  #F948B2 ;
+  border-radius: 20px;
+  
+}
+.game-description{
+  color: #534C64;
+font-size:calc(var(--font-size) * 0.9);
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+
+.image-overlay{
+  position:absolute;
+ top:35%;
+ text-align: center;
+ left: 30%;
+ display: none;
+}
+.image-overlay p{
+  color: #F948B2;
+}
+.game-card:hover .image-overlay{
+ display: block;
+
+}
+
+.game-card:hover .game-img {
+  border: 5px solid #F948B2;
+  border-radius: 20px;
+  filter: brightness(30%); /* Apply a slight darkening effect on hover */
+}
+
+/* Other styles... */
+
+
+/* online game finished */
