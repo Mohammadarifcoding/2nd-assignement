@@ -13,6 +13,13 @@
     .nav-ul{
         flex-direction: column;
     }
+    .banner-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner-img{
+        width: 100%;
+    }
 }
 @media screen and (min-width:577px) and (max-width:768px) {
     :root{
@@ -26,8 +33,18 @@
         height: auto;
         padding-bottom: 30px;
     }
+    .banner-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner-img{
+        width: 100%;
+    }
 }
-@media screen and (min-width:769px) and (max-width:990px) {
+@media screen and (min-width:769px) and (max-width:995px) {
+    :root{
+        --font-size:15px
+    }
     nav{
         flex-direction: column;
         gap: 50px;
@@ -35,5 +52,12 @@
         padding-top: 30px;
         height: auto;
         padding-bottom: 30px;
+    }
+    .banner-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner-img{
+        width: 100%;
     }
 }
