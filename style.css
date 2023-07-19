@@ -455,8 +455,8 @@ color: #FF42A5;
 }
 .cartoon-btn-container{
   display: grid;
-  grid-template-columns: repeat(5,calc(var(--font-size) * 10));
-  column-gap:calc(var(--font-size) * 0.8);
+  grid-template-columns: repeat(5,calc(var(--font-size) * 9));
+  column-gap:calc(var(--font-size) * 0.6);
   row-gap: 10px;
   justify-content: center;
   padding-bottom: 50px;
@@ -478,7 +478,7 @@ color: #FF42A5;
 }
 .cartoon-text{
   color: #0B0223;
-font-size:calc(var(--font-size) * 0.65);
+font-size:calc(var(--font-size) * 0.5);
 display: flex;
 justify-content: center;
 align-items: center;
