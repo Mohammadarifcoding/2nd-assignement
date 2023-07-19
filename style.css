@@ -8,6 +8,12 @@
 :root {
   --font-size: 16px;
 }
+.color-txt{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 /* header design */
 .nav {
@@ -278,10 +284,98 @@ line-height: 30px; /* 150% */
 .game-card:hover .game-img {
   border: 5px solid #F948B2;
   border-radius: 20px;
-  filter: brightness(30%); /* Apply a slight darkening effect on hover */
+  filter: brightness(30%); 
 }
-
-/* Other styles... */
 
 
 /* online game finished */
+/* overlay section started */
+.overlay-section{
+  margin-bottom: 190px;
+}
+.overlay-content{
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap:150px;
+
+}
+.overlay-text{
+  text-align: right;
+  width: 350px;
+}
+.overlay-title{
+font-size: calc(var(--font-size) * 3);
+font-weight: 700;
+line-height: 60px;
+}
+.overlay-description{
+  color: #534C64;
+font-size: calc(var(--font-size) * 1.125);
+font-weight: 400;
+line-height: 30px; 
+}
+.overlay-img{
+  width: 550px;
+  position: relative;
+
+}
+.overlay-img > img{
+  width: 100%; 
+
+}
+.over-img {
+  width: 40%;
+  position: absolute;
+  bottom: -120px;
+  left: -110px;
+} 
+
+
+
+/* 2nd overlay section */
+.overlay-section2{
+  margin-bottom: 190px;
+}
+.overlay-content2{
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.overlay-text2{
+  text-align: left;
+  width: 350px;
+}
+.overlay-title2{
+font-size: calc(var(--font-size) * 3);
+font-weight: 700;
+line-height: 60px;
+}
+.overlay-description2{
+  color: #534C64;
+font-size: calc(var(--font-size) * 1.125);
+font-weight: 400;
+line-height: 30px; 
+}
+.overlay-img2{
+  width: 550px;
+  position: relative;
+
+}
+.overlay-img2 > img{
+  width: 100%; 
+
+}
+.over-img2 {
+  width: 40%;
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+} 
+/* overlay section finished */
