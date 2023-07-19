@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 576px) {
   :root {
     --font-size: 12px;
@@ -80,7 +81,17 @@ text-align: center;
     padding: 15px;
   }
   .cartoon-btn-container{
-    grid-template-columns: repeat(3,calc(var(--font-size) * 10));
+    grid-template-columns: repeat(3,calc(var(--font-size) * 9.9));
+  }
+  .cartoon-text{
+    font-size:calc(var(--font-size) * 0.6);
+  }
+  .cartoon-btn img{
+    width:calc(var(--font-size) * 2.5);
+  }
+  .cartoon-btn{
+    gap:calc(var(--font-size) * 0.5); 
+    padding:calc(var(--font-size) * 0.5);
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -156,11 +167,12 @@ text-align: center;
   .cartoon-btn-content{
     width:auto;
     padding: 15px;
-    
+
   }
   .cartoon-btn-container{
     grid-template-columns: repeat(3,calc(var(--font-size) * 10));
   }
+
 
 }
 @media screen and (min-width: 769px) and (max-width: 1000px) {
@@ -240,4 +252,20 @@ text-align: center;
     grid-template-columns: repeat(4,calc(var(--font-size) * 10));
   }
 
+}
+@media screen and (max-width:450px) {
+  .cartoon-btn-container{
+    grid-template-columns: repeat(2,calc(var(--font-size) * 11));
+  } 
+
+  .cartoon-text{
+    font-size:calc(var(--font-size) * 0.8);
+  }
+  .cartoon-btn img{
+    width:calc(var(--font-size) * 2.9);
+  }
+  .cartoon-btn{
+    gap:calc(var(--font-size) * 0.8); 
+    padding:calc(var(--font-size) * 0.8);
+  }
 }
